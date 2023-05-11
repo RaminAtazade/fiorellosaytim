@@ -1,0 +1,68 @@
+nav {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  transform: translateX(12%);
+}
+
+nav ul {
+  display: flex;
+  text-decoration: none;
+  transform: translateX(-100px);
+}
+
+nav ul li {
+  width: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style-type: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+nav ul li:hover {
+  color: rgba(255, 141, 48, 0.922);
+}
+
+#all {
+  color: rgba(255, 141, 48, 0.922);
+
+}
+
+#filter {
+  transform: translateX(230px);
+}
+
+/* Bitkiler olan hisse */
+.galeri {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+
+}
+
+.foto {
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  transition: 2s;
+  justify-content: start;
+  /* overflow: hidden; */
+
+}
+
+.foto img {
+  width: 100%;
+  height: auto;
+  transition: 0.3s;
+
+}
+
+.foto img:hover {
+  transform: scale(1.04);
+}
+
+.foto-info {
+  text-align: center;
+}
